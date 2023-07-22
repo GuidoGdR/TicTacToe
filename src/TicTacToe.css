@@ -1,0 +1,107 @@
+
+
+/*    main container    */
+.TicTacToe-container{
+
+    position: relative;
+
+
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 10% 87% 3%;
+    
+    /*
+    grid-template-areas: 
+        "TicTacToe-header TicTacToe-header TicTacToe-header"
+        "TicTacToe-game TicTacToe-game TicTacToe-game"
+        ;
+
+    */
+
+}
+
+/*    Title    */
+.TicTacToe-title{
+    grid-column: 1/4;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+/*    game box    */
+.TicTacToe-container-game{
+
+    grid-column: 2/3;
+
+    height: calc(96% - 25px  );
+    width: calc(100%- 25px );
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+    gap: 8%;
+
+    padding: 20px;
+    
+}
+
+/*    Turn indicator    */
+.turn-of{
+    grid-column: 1/4;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.turn-of-icon{
+
+    display: block;
+
+    padding: 5%;
+
+    border-radius: 10%;
+}
+    
+
+/*    Game options    */
+.TicTacToe-options{
+    display: flex;
+    flex-flow: column wrap;
+
+    align-items: center;
+    
+    justify-content: space-around;
+
+    
+}
+
+
+.TicTacToe-options-reset-container{
+    width: 80%;
+    height: 10%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.TicTacToe-options-reset-btn{
+    width: 90%;
+    height: 80%;
+
+    padding: 0px;
+    margin: 0px;
+}
+/*   
+*/

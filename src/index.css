@@ -1,0 +1,18 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #root{
+    min-height: 100vh;
+    
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  

@@ -1,0 +1,46 @@
+.winer-modal{
+    position: relative;
+
+
+    top: -100%;
+
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+
+}
+
+
+
+.winer-modal-reset-box{
+
+    height: 17%;
+    width: 30%;
+
+    font-size: 30px;
+
+
+    position: absolute;
+
+    top: 45%;
+    right: 0%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: end;
+}
+
+.winer-modal-reset-btn{
+
+    height: 65%;
+    width: 95%;
+
+    font-size: 30px;
+    
+    padding: 0px;
+    margin: 0px;
+}
+

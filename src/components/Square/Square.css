@@ -1,0 +1,10 @@
+.square{
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    
+    border: 5px solid;
+    border-radius: 10%;
+}
